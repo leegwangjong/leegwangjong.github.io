@@ -4,7 +4,7 @@ Clean up Nexus Repository (Python)
 > 넥서스 저장소는 보관 정책에서 각 artifact별 보존 갯수를 설정할 수 없기 때문에
 > 다음 스크립트를 일정 주기로 수행하여 과도하게 artifact가 누적되지 않도록 함
 ----------------------------------------------------------------------
-```
+<pre><code>
 all_items = []
 
 # Establish a session for authentication
@@ -58,4 +58,4 @@ for image_name in image_names:
         #     print(f"Deleted {image_name}:{tag} with status code {delete_response.status_code}")
 
 print("Cleanup completed!")
-```        
+</code></pre>
