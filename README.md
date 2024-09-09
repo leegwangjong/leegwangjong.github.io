@@ -1,6 +1,8 @@
 Clean up Nexus Repository (Python)
 
 ----------------------------------------------------------------------
+<pre>
+    <code>        
 all_items = []
 
 # Establish a session for authentication
@@ -54,3 +56,6 @@ for image_name in image_names:
         #     print(f"Deleted {image_name}:{tag} with status code {delete_response.status_code}")
 
 print("Cleanup completed!")
+    </code>
+</pre>
+        
